@@ -16,3 +16,4 @@ git clone https://github.com/radare/radare2 && cd radare2 && sys/install.sh && \
 cd .. && git clone https://github.com/pwndbg/pwndbg && cd pwndbg && git checkout stable && ./setup.sh && \
 cd .. && git clone https://github.com/niklasb/libc-database && cd libc-database && ./get && \
 gem install one_gadget
+COPY .gdbinit /root/.gdbinit
